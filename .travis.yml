@@ -17,7 +17,7 @@ install:
 
     # Install Python and required packages.
     - conda env create -f environment.yml
-    - source activate testing-for-data-scientists
+    - source activate my_talk
 
     # Install reveal-md
     - npm install -g reveal-md

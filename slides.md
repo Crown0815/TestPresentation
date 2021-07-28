@@ -19,3 +19,9 @@ This should be a subslide?
 ---
 
 And this a normal slide again
+
+---
+
+# Simpson's Paradoxon
+
+![Homer Simpson](assets/homer_simpson.png)

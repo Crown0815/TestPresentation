@@ -31,7 +31,15 @@ And this a normal slide again
 
 ![Homer Simpson](assets/homer_simpson.png)
 </script></section><section data-markdown><script type="text/template">
-And another subslide</script></section></section></div>
+And another subslide
+</script></section></section><section  data-markdown><script type="text/template">
+```mermaid
+graph TD;
+   A-->B;
+   A-->C;
+   B-->D;
+   C-->D;
+```</script></section></div>
     </div>
 
     <script src="./dist/reveal.js"></script>
@@ -77,6 +85,8 @@ And another subslide</script></section></section></div>
       var options = extend(defaultOptions, {}, queryOptions);
     </script>
 
+    <script src="./_assets/lib/mermaid.min.js"></script>
+    <script src="./_assets/lib/reveal-mermaid.js"></script>
 
     <script>
       Reveal.initialize(options);

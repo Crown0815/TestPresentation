@@ -21,6 +21,11 @@ install:
 
     # Install reveal-md
     - npm install -g reveal-md
+    
+    # Install mermaid
+    - mkdir -p lib/
+    - curl -o lib/mermaid.min.js https://raw.githubusercontent.com/mermaid-js/mermaid/develop/dist_dev/mermaid.min.js
+    - curl -o lib/reveal-mermaid.js https://raw.githubusercontent.com/amra/reveal-md-scripts/master/mermaidjs/reveal-mermaid.js
 
 
 script:

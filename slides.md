@@ -29,3 +29,13 @@ And this a normal slide again
 ----
 
 And another subslide
+
+---
+
+```mermaid
+graph TD;
+   A-->B;
+   A-->C;
+   B-->D;
+   C-->D;
+```

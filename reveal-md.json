@@ -1,0 +1,4 @@
+{
+    "scripts": "lib/mermaid.min.js,lib/reveal-mermaid.js",
+    "theme": "white"
+}
